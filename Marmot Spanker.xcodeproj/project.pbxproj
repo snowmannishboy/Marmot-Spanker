@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FEDCAA18A6207500B76770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCA918A6207500B76770 /* Foundation.framework */; };
+		37FEDCAC18A6207500B76770 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCAB18A6207500B76770 /* CoreGraphics.framework */; };
+		37FEDCAE18A6207500B76770 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCAD18A6207500B76770 /* UIKit.framework */; };
+		37FEDCB018A6207500B76770 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCAF18A6207500B76770 /* CoreData.framework */; };
+		37FEDCB618A6207500B76770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDCB418A6207500B76770 /* InfoPlist.strings */; };
+		37FEDCB818A6207500B76770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCB718A6207500B76770 /* main.m */; };
+		37FEDCBC18A6207500B76770 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCBB18A6207500B76770 /* AppDelegate.m */; };
+		37FEDCBF18A6207500B76770 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDCBD18A6207500B76770 /* Main_iPhone.storyboard */; };
+		37FEDCC218A6207500B76770 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDCC018A6207500B76770 /* Main_iPad.storyboard */; };
+		37FEDCC518A6207500B76770 /* Marmot_Spanker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCC318A6207500B76770 /* Marmot_Spanker.xcdatamodeld */; };
+		37FEDCC818A6207500B76770 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCC718A6207500B76770 /* MainViewController.m */; };
+		37FEDCCB18A6207500B76770 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCCA18A6207500B76770 /* FlipsideViewController.m */; };
+		37FEDCCD18A6207500B76770 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDCCC18A6207500B76770 /* Images.xcassets */; };
+		37FEDCD418A6207500B76770 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCD318A6207500B76770 /* XCTest.framework */; };
+		37FEDCD518A6207500B76770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCA918A6207500B76770 /* Foundation.framework */; };
+		37FEDCD618A6207500B76770 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCAD18A6207500B76770 /* UIKit.framework */; };
+		37FEDCD718A6207500B76770 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FEDCAF18A6207500B76770 /* CoreData.framework */; };
+		37FEDCDF18A6207500B76770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37FEDCDD18A6207500B76770 /* InfoPlist.strings */; };
+		37FEDCE118A6207500B76770 /* Marmot_SpankerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEDCE018A6207500B76770 /* Marmot_SpankerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FEDCD818A6207500B76770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FEDC9E18A6207500B76770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FEDCA518A6207500B76770;
+			remoteInfo = "Marmot Spanker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37FEDCA618A6207500B76770 /* Marmot Spanker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marmot Spanker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FEDCA918A6207500B76770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37FEDCAB18A6207500B76770 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37FEDCAD18A6207500B76770 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37FEDCAF18A6207500B76770 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37FEDCB318A6207500B76770 /* Marmot Spanker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marmot Spanker-Info.plist"; sourceTree = "<group>"; };
+		37FEDCB518A6207500B76770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37FEDCB718A6207500B76770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37FEDCB918A6207500B76770 /* Marmot Spanker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marmot Spanker-Prefix.pch"; sourceTree = "<group>"; };
+		37FEDCBA18A6207500B76770 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37FEDCBB18A6207500B76770 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37FEDCBE18A6207500B76770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		37FEDCC118A6207500B76770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		37FEDCC418A6207500B76770 /* Marmot_Spanker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marmot_Spanker.xcdatamodel; sourceTree = "<group>"; };
+		37FEDCC618A6207500B76770 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		37FEDCC718A6207500B76770 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		37FEDCC918A6207500B76770 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		37FEDCCA18A6207500B76770 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		37FEDCCC18A6207500B76770 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37FEDCD218A6207500B76770 /* Marmot SpankerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marmot SpankerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FEDCD318A6207500B76770 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37FEDCDC18A6207500B76770 /* Marmot SpankerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marmot SpankerTests-Info.plist"; sourceTree = "<group>"; };
+		37FEDCDE18A6207500B76770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37FEDCE018A6207500B76770 /* Marmot_SpankerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Marmot_SpankerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FEDCA318A6207500B76770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCAC18A6207500B76770 /* CoreGraphics.framework in Frameworks */,
+				37FEDCB018A6207500B76770 /* CoreData.framework in Frameworks */,
+				37FEDCAE18A6207500B76770 /* UIKit.framework in Frameworks */,
+				37FEDCAA18A6207500B76770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FEDCCF18A6207500B76770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCD418A6207500B76770 /* XCTest.framework in Frameworks */,
+				37FEDCD718A6207500B76770 /* CoreData.framework in Frameworks */,
+				37FEDCD618A6207500B76770 /* UIKit.framework in Frameworks */,
+				37FEDCD518A6207500B76770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FEDC9D18A6207500B76770 = {
+			isa = PBXGroup;
+			children = (
+				37FEDCB118A6207500B76770 /* Marmot Spanker */,
+				37FEDCDA18A6207500B76770 /* Marmot SpankerTests */,
+				37FEDCA818A6207500B76770 /* Frameworks */,
+				37FEDCA718A6207500B76770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FEDCA718A6207500B76770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCA618A6207500B76770 /* Marmot Spanker.app */,
+				37FEDCD218A6207500B76770 /* Marmot SpankerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FEDCA818A6207500B76770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCA918A6207500B76770 /* Foundation.framework */,
+				37FEDCAB18A6207500B76770 /* CoreGraphics.framework */,
+				37FEDCAD18A6207500B76770 /* UIKit.framework */,
+				37FEDCAF18A6207500B76770 /* CoreData.framework */,
+				37FEDCD318A6207500B76770 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37FEDCB118A6207500B76770 /* Marmot Spanker */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCBA18A6207500B76770 /* AppDelegate.h */,
+				37FEDCBB18A6207500B76770 /* AppDelegate.m */,
+				37FEDCBD18A6207500B76770 /* Main_iPhone.storyboard */,
+				37FEDCC018A6207500B76770 /* Main_iPad.storyboard */,
+				37FEDCC618A6207500B76770 /* MainViewController.h */,
+				37FEDCC718A6207500B76770 /* MainViewController.m */,
+				37FEDCC918A6207500B76770 /* FlipsideViewController.h */,
+				37FEDCCA18A6207500B76770 /* FlipsideViewController.m */,
+				37FEDCCC18A6207500B76770 /* Images.xcassets */,
+				37FEDCC318A6207500B76770 /* Marmot_Spanker.xcdatamodeld */,
+				37FEDCB218A6207500B76770 /* Supporting Files */,
+			);
+			path = "Marmot Spanker";
+			sourceTree = "<group>";
+		};
+		37FEDCB218A6207500B76770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCB318A6207500B76770 /* Marmot Spanker-Info.plist */,
+				37FEDCB418A6207500B76770 /* InfoPlist.strings */,
+				37FEDCB718A6207500B76770 /* main.m */,
+				37FEDCB918A6207500B76770 /* Marmot Spanker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37FEDCDA18A6207500B76770 /* Marmot SpankerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCE018A6207500B76770 /* Marmot_SpankerTests.m */,
+				37FEDCDB18A6207500B76770 /* Supporting Files */,
+			);
+			path = "Marmot SpankerTests";
+			sourceTree = "<group>";
+		};
+		37FEDCDB18A6207500B76770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FEDCDC18A6207500B76770 /* Marmot SpankerTests-Info.plist */,
+				37FEDCDD18A6207500B76770 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FEDCA518A6207500B76770 /* Marmot Spanker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FEDCE418A6207500B76770 /* Build configuration list for PBXNativeTarget "Marmot Spanker" */;
+			buildPhases = (
+				37FEDCA218A6207500B76770 /* Sources */,
+				37FEDCA318A6207500B76770 /* Frameworks */,
+				37FEDCA418A6207500B76770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marmot Spanker";
+			productName = "Marmot Spanker";
+			productReference = 37FEDCA618A6207500B76770 /* Marmot Spanker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37FEDCD118A6207500B76770 /* Marmot SpankerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FEDCE718A6207500B76770 /* Build configuration list for PBXNativeTarget "Marmot SpankerTests" */;
+			buildPhases = (
+				37FEDCCE18A6207500B76770 /* Sources */,
+				37FEDCCF18A6207500B76770 /* Frameworks */,
+				37FEDCD018A6207500B76770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FEDCD918A6207500B76770 /* PBXTargetDependency */,
+			);
+			name = "Marmot SpankerTests";
+			productName = "Marmot SpankerTests";
+			productReference = 37FEDCD218A6207500B76770 /* Marmot SpankerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FEDC9E18A6207500B76770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "dan garrett";
+				TargetAttributes = {
+					37FEDCD118A6207500B76770 = {
+						TestTargetID = 37FEDCA518A6207500B76770;
+					};
+				};
+			};
+			buildConfigurationList = 37FEDCA118A6207500B76770 /* Build configuration list for PBXProject "Marmot Spanker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FEDC9D18A6207500B76770;
+			productRefGroup = 37FEDCA718A6207500B76770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FEDCA518A6207500B76770 /* Marmot Spanker */,
+				37FEDCD118A6207500B76770 /* Marmot SpankerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FEDCA418A6207500B76770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCC218A6207500B76770 /* Main_iPad.storyboard in Resources */,
+				37FEDCCD18A6207500B76770 /* Images.xcassets in Resources */,
+				37FEDCBF18A6207500B76770 /* Main_iPhone.storyboard in Resources */,
+				37FEDCB618A6207500B76770 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FEDCD018A6207500B76770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCDF18A6207500B76770 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FEDCA218A6207500B76770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCC518A6207500B76770 /* Marmot_Spanker.xcdatamodeld in Sources */,
+				37FEDCBC18A6207500B76770 /* AppDelegate.m in Sources */,
+				37FEDCB818A6207500B76770 /* main.m in Sources */,
+				37FEDCCB18A6207500B76770 /* FlipsideViewController.m in Sources */,
+				37FEDCC818A6207500B76770 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FEDCCE18A6207500B76770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FEDCE118A6207500B76770 /* Marmot_SpankerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FEDCD918A6207500B76770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FEDCA518A6207500B76770 /* Marmot Spanker */;
+			targetProxy = 37FEDCD818A6207500B76770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37FEDCB418A6207500B76770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FEDCB518A6207500B76770 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37FEDCBD18A6207500B76770 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FEDCBE18A6207500B76770 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		37FEDCC018A6207500B76770 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FEDCC118A6207500B76770 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		37FEDCDD18A6207500B76770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FEDCDE18A6207500B76770 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FEDCE218A6207500B76770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FEDCE318A6207500B76770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FEDCE518A6207500B76770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marmot Spanker/Marmot Spanker-Prefix.pch";
+				INFOPLIST_FILE = "Marmot Spanker/Marmot Spanker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37FEDCE618A6207500B76770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marmot Spanker/Marmot Spanker-Prefix.pch";
+				INFOPLIST_FILE = "Marmot Spanker/Marmot Spanker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37FEDCE818A6207500B76770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marmot Spanker.app/Marmot Spanker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marmot Spanker/Marmot Spanker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Marmot SpankerTests/Marmot SpankerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37FEDCE918A6207500B76770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marmot Spanker.app/Marmot Spanker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marmot Spanker/Marmot Spanker-Prefix.pch";
+				INFOPLIST_FILE = "Marmot SpankerTests/Marmot SpankerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FEDCA118A6207500B76770 /* Build configuration list for PBXProject "Marmot Spanker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FEDCE218A6207500B76770 /* Debug */,
+				37FEDCE318A6207500B76770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FEDCE418A6207500B76770 /* Build configuration list for PBXNativeTarget "Marmot Spanker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FEDCE518A6207500B76770 /* Debug */,
+				37FEDCE618A6207500B76770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37FEDCE718A6207500B76770 /* Build configuration list for PBXNativeTarget "Marmot SpankerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FEDCE818A6207500B76770 /* Debug */,
+				37FEDCE918A6207500B76770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37FEDCC318A6207500B76770 /* Marmot_Spanker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37FEDCC418A6207500B76770 /* Marmot_Spanker.xcdatamodel */,
+			);
+			currentVersion = 37FEDCC418A6207500B76770 /* Marmot_Spanker.xcdatamodel */;
+			path = Marmot_Spanker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37FEDC9E18A6207500B76770 /* Project object */;
+}
